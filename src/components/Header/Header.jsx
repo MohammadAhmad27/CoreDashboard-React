@@ -1,6 +1,8 @@
 import React from 'react'
 import "./header.css"
 import Logo from '../Logo/Logo'
+import SearchBar from '../SearchBar/SearchBar'
+import Nav from '../Nav/Nav'
 
 
 export default function Header() {
@@ -9,7 +11,9 @@ export default function Header() {
       {/* {logo} */}
       <Logo />
       {/* search bar */}
+      <SearchBar />
       {/* nav */}
+      <Nav />
     </header>
   )
 }
